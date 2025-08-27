@@ -36,7 +36,7 @@ button:focus {
   background-image: url(./Assets/loader.gif);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300px 300px;   /* Increase GIF size */
+  background-size: 300px 300px; /* Increase GIF size */
   display: flex;
   justify-content: center;
   align-items: center;
