@@ -33,9 +33,19 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/loader.gif);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 300px 300px;   /* Increase GIF size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Remove or ignore .preloader-logo if not using logo image */
+.preloader-logo {
+  display: none;
 }
 
 #preloader-none {
