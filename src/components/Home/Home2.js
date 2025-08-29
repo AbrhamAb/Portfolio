@@ -38,7 +38,7 @@ function Home2() {
               </i>
               but my long-term passion lies in
               <i>
-                <b className="purple"> Data Science and AI-driven solutions, </b>
+                <b className="purple"> working on AI-driven solutions, </b>
               </i>
               especially with machine learning.  
               <br />
