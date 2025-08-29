@@ -8,6 +8,7 @@ import ping from "../../Assets/Projects/ping.png";
 import pomo from "../../Assets/Projects/pomo.png";
 import snake from "../../Assets/Projects/snake.png";
 import us from "../../Assets/Projects/us.png";
+import loading from "../../Assets/Projects/loading.gif";
 
 function Projects() {
   return (
@@ -80,6 +81,15 @@ function Projects() {
               title="us States guessing game"
               description="A fun and educational game built with Python,Turtle graphics and pandas where players guess the names of U.S. states. The game displays a blank map of the United States, and players input state names to see them appear on the map. It tracks correct guesses and encourages learning through interactive gameplay."
               ghLink="https://github.com/AbrhamAb/us-states-game"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={loading}
+              isBlog={false}
+              title="Loading..."
+              description="More projects are coming soon. Stay tuned! And let's connect on GitHub in the meantime."
+              ghLink="https://github.com/AbrhamAb"
             />
           </Col>
         </Row>
