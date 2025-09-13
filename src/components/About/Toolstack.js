@@ -7,6 +7,7 @@ import {
   SiVercel,
   SiGithub,
   SiGitkraken,
+  SiNotion, // Add Notion icon
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,6 +30,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGitkraken />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNotion />
       </Col>
     </Row>
   );
