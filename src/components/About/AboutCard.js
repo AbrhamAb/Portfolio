@@ -32,9 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Every challenge is a chance to build something smarter!"{" "}
+            “Wear your failure as a badge of honour!”{" "}
           </p>
-          <footer className="blockquote-footer">Abrham A.</footer>
+          <footer className="blockquote-footer">Sundar Pichai</footer>
         </blockquote>
       </Card.Body>
     </Card>
