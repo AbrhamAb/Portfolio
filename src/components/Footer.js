@@ -14,7 +14,17 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Inspiration from S.B </h3>
+          <h3>
+            Inspiration from{" "}
+            <a
+              href="https://github.com/soumyajit4419/Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#fff", textDecoration: "underline" }}
+            >
+              Soumyajit
+            </a>
+          </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Abrham Abebaw</h3>
