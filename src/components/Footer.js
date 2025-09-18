@@ -17,12 +17,12 @@ function Footer() {
           <h3>
             Inspiration from{" "}
             <a
-              href="https://github.com/soumyajit4419/Portfolio"
+              href="https://github.com/soumyajit4419"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#fff", textDecoration: "underline" }}
             >
-              Soumyajit
+              Soumyajit B.
             </a>
           </h3>
         </Col>
