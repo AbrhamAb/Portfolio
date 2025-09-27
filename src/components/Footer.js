@@ -15,14 +15,14 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Inspiration from{" "}
+            Inspiration from{"https://github.com/soumyajit4419"}
             <a
               href=""
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#fff", textDecoration: "underline" }}
             >
-              SB.
+              Soumyajit B.
             </a>
           </h3>
         </Col>
