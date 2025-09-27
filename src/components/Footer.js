@@ -15,9 +15,9 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Inspiration from{"https://github.com/soumyajit4419"}
+            Inspiration from{""}
             <a
-              href=""
+              href="https://github.com/soumyajit4419"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#fff", textDecoration: "underline" }}
