@@ -29,7 +29,7 @@ function Projects() {
               imgPath={dev}
               isBlog={false}
               title="Dev-diaries"
-              description="Dev-Diaries is a full-stack blogging platform built with React and Django.It supports user authentication,post creation/editing,comments,and a responsive UI—designed to help developers share knowledge and connect with others."
+              description="Dev-Diaries is a full-stack blogging platform built with React and Django.It supports user authentication,post creation/ editing,comments,and a responsive UI designed to help developers share knowledge and connect with others."
               ghLink="https://github.com/AbrhamAb/dev-diaries"
             />
           </Col>
