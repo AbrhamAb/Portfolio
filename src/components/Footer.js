@@ -15,15 +15,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Inspiration from{" "}
-            <a
-              href=" "
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#fff", textDecoration: "underline" }}
-            >
-              SB.
-            </a>
+            Inspiration from S.B.
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">
