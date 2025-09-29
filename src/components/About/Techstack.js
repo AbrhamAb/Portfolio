@@ -4,7 +4,6 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
@@ -39,9 +38,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
