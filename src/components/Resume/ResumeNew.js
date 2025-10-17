@@ -15,6 +15,13 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  const handleLinkClick = (e) => {
+    if (e.target && e.target.href) {
+      e.preventDefault();
+      window.open(e.target.href, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   return (
     <div>
       <Container fluid className="resume-section">
@@ -33,13 +40,13 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} onClick={handleLinkClick} />
           </Document>
         </Row>
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} onClick={handleLinkClick} />
           </Document>
         </Row>
 
