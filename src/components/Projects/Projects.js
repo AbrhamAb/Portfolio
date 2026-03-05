@@ -30,7 +30,7 @@ function Projects() {
               imgPath={dev2}
               isBlog={false}
               title="wagaLine"
-              description="wagaLine is a mobile and backend system that uses AI-powered image recognition to help vendors andcustomers in Ethiopian markets quickly identify, produce and receive fair, transparent price suggestions."
+              description="wagaLine is a mobile and backend system that uses AI-powered image recognition to help vendors and customers in Ethiopian markets quickly identify, produce and receive fair, transparent price suggestions."
               ghLink="https://github.com/AbrhamAb/market-recognition"
               demoLink="https://drive.google.com/file/d/1qJfgfb9qIMFAM8uGwk3nx3sQSnVefuCu/view?usp=sharing"
               
