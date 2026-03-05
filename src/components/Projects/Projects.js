@@ -10,7 +10,7 @@ import snake from "../../Assets/Projects/snake.png";
 import us from "../../Assets/Projects/us.png";
 import loading from "../../Assets/Projects/loading.gif";
 import dev from "../../Assets/Projects/dev.jpg";
-import dev2 from "../../Assets/Projects/dev2.jpg";
+import dev2 from "../../Assets/Projects/dev2.png";
 
 function Projects() {
   return (
