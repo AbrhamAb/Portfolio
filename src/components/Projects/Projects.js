@@ -10,6 +10,7 @@ import snake from "../../Assets/Projects/snake.png";
 import us from "../../Assets/Projects/us.png";
 import loading from "../../Assets/Projects/loading.gif";
 import dev from "../../Assets/Projects/dev.jpg";
+import dev2 from "../../Assets/Projects/dev2.jpg";
 
 function Projects() {
   return (
@@ -23,10 +24,21 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+            
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dev}
+              isBlog={false}
+              title="wagaLine"
+              description="wagaLine is a mobile and backend system that uses AI-powered image recognition to help vendors andcustomers in Ethiopian markets quickly identify, produce and receive fair, transparent price suggestions."
+              ghLink="https://github.com/AbrhamAb/market-recognition"
+            />
+          </Col>
+          
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dev2}
               isBlog={false}
               title="Dev-diaries"
               description="Dev-Diaries is a full-stack blogging platform built with React and Django.It supports user authentication,post creation/ editing,comments,and a responsive UI designed to help developers share knowledge and connect with others."
