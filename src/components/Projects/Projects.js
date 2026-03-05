@@ -27,18 +27,20 @@ function Projects() {
             
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dev}
+              imgPath={dev2}
               isBlog={false}
               title="wagaLine"
               description="wagaLine is a mobile and backend system that uses AI-powered image recognition to help vendors andcustomers in Ethiopian markets quickly identify, produce and receive fair, transparent price suggestions."
               ghLink="https://github.com/AbrhamAb/market-recognition"
+              demoLink="https://drive.google.com/file/d/1qJfgfb9qIMFAM8uGwk3nx3sQSnVefuCu/view?usp=sharing"
+              
             />
           </Col>
           
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dev2}
+              imgPath={dev}
               isBlog={false}
               title="Dev-diaries"
               description="Dev-Diaries is a full-stack blogging platform built with React and Django.It supports user authentication,post creation/ editing,comments,and a responsive UI designed to help developers share knowledge and connect with others."
