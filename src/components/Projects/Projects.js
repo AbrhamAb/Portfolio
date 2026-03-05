@@ -11,6 +11,7 @@ import us from "../../Assets/Projects/us.png";
 import loading from "../../Assets/Projects/loading.gif";
 import dev from "../../Assets/Projects/dev.jpg";
 import dev2 from "../../Assets/Projects/dev2.png";
+import dev3 from "../../Assets/Projects/dev3.png";
 
 function Projects() {
   return (
@@ -24,6 +25,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+               
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dev3}
+              isBlog={false}
+              title="GebetaEats"
+              description="GebetaEats is a cross-platform Flutter food ordering app featuring onboarding, authentication, restaurant browsing, cart and checkout, order tracking, and user profiles. The app uses Supabase as the backend and is built with Flutter and Dart."
+              ghLink="https://github.com/AbrhamAb/GebetaEats"
+              demoLink="https://drive.google.com/file/d/1zqM0Gffrt-0LyhPKOLbiYkWUk4P8sARE/view?usp=sharing"
+              
+            />
+          </Col>
             
           <Col md={4} className="project-card">
             <ProjectCard
